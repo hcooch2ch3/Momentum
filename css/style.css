@@ -1,0 +1,76 @@
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    font-size: 150px;
+    color: white;
+}
+
+#quote {
+    margin: 30px 300px;
+    font-size: 30px;
+    color: floralwhite;
+}
+
+#quote span:last-child {
+    font-size: 30px;
+}
+
+#greeting {
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+}
+
+input[type=text] {
+    border: 2px solid black;
+    padding: 15px 32px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.deleteButton {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#weather {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#weather span {
+    display: block;
+}
+
+#weather span:last-child {
+    font-size: 30px;
+}
+
+#todo-list {
+    margin: 15px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#todo-list li {
+    display: block;
+}
